@@ -32,8 +32,6 @@ public FlatFileItemReader<UserDto> userItemReader() {
 - names\
 파일 내 각각의 컬럼명 지정
 
-### example
-
 |userId|passwd|name|intValue|매핑에러|
 |------|---|---|---|---|
 |테스트1|테스트2|테스트3|테스트3|---|
@@ -43,7 +41,6 @@ public FlatFileItemReader<UserDto> userItemReader() {
 - targetType\
 매핑되서 반환될 dto를 지정
 
-- Example
 ```
 @Getter
 @Setter
